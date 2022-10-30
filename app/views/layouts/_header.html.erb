@@ -1,9 +1,6 @@
-<nav class="navbar mobile-offcanvas navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-   <div class="offcanvas-header">  
-      <button class="btn-close float-end"></button>
-   </div>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent ">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent ">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
   
       <li class="nav-item">
@@ -41,7 +38,7 @@
           <%= link_to 'All rented books', books_all_rented_books_path, class: "nav-link text-light"%>
           
         </li>
-  </ul>      
+  </ul>  <ul>    
         <%if user_signed_in?%>
         <li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Hello <%=current_user.email%></a>
@@ -65,7 +62,7 @@
         </li>
         <%end%>
       </ul>
-</div>
+
       
     </div>
 </nav>
