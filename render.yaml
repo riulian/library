@@ -7,6 +7,8 @@ databases:
 services:
   - type: web
     name: library
+    domains:
+      - library.render.com
     env: ruby
     plan: Free   #aici am ales planul Free dar put alege si alte planuri gen Starter care este 7$
     buildCommand: "./bin/render-build.sh"
