@@ -27,7 +27,7 @@ Book.delete_all
 User.delete_all
 require "faker"
 a=0
-u=User.new(email: Faker::Internet.email,password: '111111',password_confirmation: '111111',role: 1)
+u=User.new(email: "1@1.com",password: '111111',password_confirmation: '111111',role: 1)
 u.save
 100.times do
     
