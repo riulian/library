@@ -2,6 +2,7 @@ databases:
   - name: library
     databaseName: library_production_nakz
     user: iulian
+    plan: Free
 
 services:
   - type: web
