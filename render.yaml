@@ -1,6 +1,7 @@
 databases:
   - name: library
-    databaseName: library_production_nakz_9yas
+    #databaseName: library_production_nakz_9yas
+    databaseName: library_production
     user: iulian
     #plan: Free
 
