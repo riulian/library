@@ -1,8 +1,10 @@
 databases:
   - name: library
+    host: mydatabase-instance.crelb6c2608h.us-east-1.rds.amazonaws.com
     #databaseName: library_production_nakz_9yas
     databaseName: library_production
     user: iulian
+    password: iuliiuli
     #plan: Free
 
 services:
