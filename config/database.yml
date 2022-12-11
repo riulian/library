@@ -53,12 +53,19 @@ development:
 production:
   adapter: postgresql
   encoding: unicode
+  host: mydatabase-instance.crelb6c2608h.us-east-1.rds.amazonaws.com
+  database: library_production
+  pool: 5
+  username:  iulian
+  password: iuliiuli
+  
   #<<: *default
   #database: library_production
   #username: library
   #password: <%= ENV["LIBRARY_DATABASE_PASSWORD"] %>
   #url: <%= ENV["DATABASE_URL"] %>
-  url: postgres://iulian:ZyqB4y88pV2yTGQ04WkGDPMLWYMnneTY@dpg-ce942ncgqg418pajk71g-a.oregon-postgres.render.com/library_production_nakz_9yas
+  #url: postgres://iulian:ZyqB4y88pV2yTGQ04WkGDPMLWYMnneTY@dpg-ce942ncgqg418pajk71g-a.oregon-postgres.render.com/library_production_nakz_9yas
+
 test:
   <<: *default
   database: library_test
