@@ -1,6 +1,6 @@
 databases:
-  - name: library
-  #- name: library-production
+  #- name: library
+  - name: mydatabase-instance
     #databaseName: library_production_nakz_9yas
     databaseName: library_production
     user: iulian
