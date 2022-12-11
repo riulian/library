@@ -1,10 +1,10 @@
 databases:
   #- name: library
-  - name: mydatabase-instance
+  #- name: mydatabase-instance
     #databaseName: library_production_nakz_9yas
-    databaseName: library_production
-    user: iulian
-    password: iuliiuli
+    #databaseName: library_production
+    #user: iulian
+    #password: iuliiuli
     #plan: Free
 
 services:
