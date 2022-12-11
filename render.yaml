@@ -2,7 +2,7 @@ databases:
   - name: library
     databaseName: library_production_nakz_9yas
     user: iulian
-    plan: Free
+    #plan: Free
 
 services:
   - type: web

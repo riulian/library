@@ -53,11 +53,12 @@ development:
 production:
   adapter: postgresql
   encoding: unicode
-  host: mydatabase-instance.crelb6c2608h.us-east-1.rds.amazonaws.com
-  database: library_production
-  pool: 5
-  username:  iulian
+  #host: mydatabase-instance.crelb6c2608h.us-east-1.rds.amazonaws.com
+  #database: library_production
+  #pool: 5
+  #username:  iulian
   password: iuliiuli
+  url: postgres://iulian:mydatabase-instance.crelb6c2608h.us-east-1.rds.amazonaws.com/library_production_nakz_9yas
   
   #<<: *default
   #database: library_production
