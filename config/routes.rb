@@ -13,7 +13,7 @@ Rails.application.routes.draw do
   patch 'books/returnabook'
   get 'books/my_rented_books'
   get 'books/all_rented_books'
-  get 'books/search'
+  get 'books/search' 
   
   resources :books
   #devise_for :users
