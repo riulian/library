@@ -23,7 +23,39 @@ development:
   host: localhost
   port: 5432
   
+<<<<<<< HEAD
 
+=======
+#
+#   production:
+#     url: <%= ENV["MY_APP_DATABASE_URL"] %>
+#
+# Read https://guides.rubyonrails.org/configuring.html#configuring-a-database
+# for a full overview on how database connection configuration can be specified.
+#
+#production:
+#  <<: *default
+#  database: library_production
+#  username: library
+#  password: <%= ENV["LIBRARY_DATABASE_PASSWORD"] %>
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  #host: mydatabase-instance.crelb6c2608h.us-east-1.rds.amazonaws.com
+  #database: library_production
+  #pool: 5
+  #username:  iulian
+  #password: iuliiuli
+  url: postgres://iulian:iuliiuli@mydatabase-instance.cwgrqsm7tgq2.eu-central-1.rds.amazonaws.com:5432/library_production2
+  #url: postgres://iulian:mydatabase-instance.crelb6c2608h.us-east-1.rds.amazonaws.com/library_production_nakz_9yas
+  #<<: *default
+  #database: library_production
+  #username: library
+  #password: <%= ENV["LIBRARY_DATABASE_PASSWORD"] %>
+  #url: <%= ENV["DATABASE_URL"] %>
+  #url: postgres://iulian:ZyqB4y88pV2yTGQ04WkGDPMLWYMnneTY@dpg-ce942ncgqg418pajk71g-a.oregon-postgres.render.com/library_production_nakz_9yas
+>>>>>>> d0e00e8d81b80a38ed826699417c1bada1953df5
 
 test:
   <<: *default
